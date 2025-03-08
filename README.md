@@ -9,6 +9,9 @@ To run this project locally, follow these steps:
 ### 1️⃣ Clone or Extract the Project
 If you have received a ZIP file, extract it first.  
 
+If cloning from GitHub, use:
+```sh
+git clone <your-repository-url>
 
 ### 2️⃣ Navigate to the Project Directory
 cd <your-project-folder>
