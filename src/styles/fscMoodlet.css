@@ -1,0 +1,40 @@
+.moodlet {
+  display: inline-block;
+  padding: 12px 20px; /* Increased padding */
+  border-radius: 20px; /* More rounded */
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.required {
+  background-color: red;
+  color: white;
+  border-color: darkred;
+}
+
+.current {
+  background-color: blue;
+  color: white;
+  border-color: darkblue;
+}
+
+.completed {
+  background-color: green;
+  color: white;
+  border-color: darkgreen;
+}
+
+.not-required {
+  background-color: gray;
+  color: white;
+  border-color: darkgray;
+}
+
+.moodlet:hover {
+  opacity: 0.85;
+  transform: scale(1.05); /* Subtle hover effect */
+}

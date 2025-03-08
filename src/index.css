@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.moodlet {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.required {
+  background-color: red;
+  color: white;
+}
+
+.current {
+  background-color: blue;
+  color: white;
+}
+
+.completed {
+  background-color: green;
+  color: white;
+}
+
+.not-required {
+  background-color: gray;
+  color: white;
+}
